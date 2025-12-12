@@ -1,0 +1,10 @@
+export function kalkulator(Angka1, Angka2, operator) {
+  switch (operator) {
+    case '+': return Angka1 + Angka2;
+    case '-': return Angka1 - Angka2;
+    case '*': return Angka1 * Angka2;
+    case '/': return Angka1 / Angka2;
+    default: return 'Operator tidak valid'
+    ;
+  }
+}
